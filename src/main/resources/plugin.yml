@@ -1,0 +1,19 @@
+name: Ranks
+version: '${project.version}'
+main: com.foxdev.ranks.Ranks
+authors: [ FoxxyBlade ]
+description: Rank System
+depend: [LuckPerms]
+commands:
+  gold:
+    description: Gold rank
+    permission: nsmp.goldrank
+  staffitem:
+    description: StaffItem
+    permission: nsmp.staffitem
+  diamond:
+    description: Diamond
+    permission: nsmp.diamond
+  iron:
+    description: Iron
+    permission: nsmp.iron
